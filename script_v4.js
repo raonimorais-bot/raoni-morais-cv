@@ -114,7 +114,7 @@ const timelineEntries = [
  */
 const projects = [
   // ── Mirow & Co. ──
-  { name: 'Governança Comercial', industry: 'Agronegócio & Fertilizantes', theme: 'Estratégia comercial', date: 'Jun/2018', description: 'Desenvolvimento de modelo de governança comercial para reduzir dispersão de preços e perdas financeiras.' },
+  { name: 'Governança Comercial', industry: 'Química & Materiais', theme: 'Estratégia comercial', date: 'Jun/2018', description: 'Desenvolvimento de modelo de governança comercial para reduzir dispersão de preços e perdas financeiras.' },
   { name: 'Monetização de Gás na Região Norte', industry: 'Óleo & Gás', theme: 'Estratégia de crescimento & novos negócios', date: 'Jul/2019', description: 'Análise técnica e econômica para monetização de reservas de gás natural onshore.' },
   { name: 'Mobilidade Elétrica', industry: 'Energia & Utilidades', theme: 'Estratégia de crescimento & novos negócios', date: 'Mar/2020', description: 'Identificação de modelos de negócios para viabilizar a mobilidade elétrica no Brasil.' },
   { name: 'Planejamento Estratégico', industry: 'Óleo & Gás', theme: 'Planejamento estratégico', date: 'Jun/2020', description: 'Desenvolvimento de planejamento estratégico focado no mercado de gás natural.' },
@@ -122,14 +122,14 @@ const projects = [
   { name: 'Oportunidades de Crescimento', industry: 'Óleo & Gás', theme: 'Estratégia de crescimento & novos negócios', date: 'Dez/2021', description: 'Análise de contexto de mercado e identificação de oportunidades de investimento.' },
   { name: 'Estratégia de Crescimento 2026', industry: 'Sustentabilidade & Meio Ambiente', theme: 'Planejamento estratégico', date: 'Mar/2022', description: 'Diagnóstico interno e externo com roadmap de implementação para expansão no mercado de ativos ambientais.' },
   { name: 'Oportunidades em Supply Chain', industry: 'Química & Materiais', theme: 'Eficiência operacional', date: 'Jun/2022', description: 'Diagnóstico e estruturação de iniciativas em Supply Chain, com foco em governança, S&OP e gestão de estoques.' },
-  { name: 'COA como Serviço', industry: 'Agronegócio & Fertilizantes', theme: 'Inovação & ESG', date: 'Ago/2022', description: 'Business case para oferta de serviços de Centro de Operações Agrícolas, incluindo estratégia de go-to-market.' },
-  { name: 'Estratégia de Máquina de Papel (PM)', industry: 'Papel & Celulose', theme: 'Estratégia de crescimento & novos negócios', date: 'Dez/2022', description: 'Avaliação técnica e financeira de alternativas locacionais para nova máquina de papel.' },
-  { name: 'Desenvolvimento de Novos Produtos (NPI)', industry: 'Agronegócio & Fertilizantes', theme: 'Inovação & ESG', date: 'Set/2023', description: 'Condução da fase de ideação para desenvolvimento de novos produtos, com análise de mercado e entrevistas com especialistas.' },
+  { name: 'COA como Serviço', industry: 'Agroflorestal', theme: 'Inovação & ESG', date: 'Ago/2022', description: 'Business case para oferta de serviços de Centro de Operações Agrícolas, incluindo estratégia de go-to-market.' },
+  { name: 'Estratégia de Máquina de Papel (PM)', industry: 'Agroflorestal', theme: 'Estratégia de crescimento & novos negócios', date: 'Dez/2022', description: 'Avaliação técnica e financeira de alternativas locacionais para nova máquina de papel.' },
+  { name: 'Desenvolvimento de Novos Produtos (NPI)', industry: 'Agroflorestal', theme: 'Inovação & ESG', date: 'Set/2023', description: 'Condução da fase de ideação para desenvolvimento de novos produtos, com análise de mercado e entrevistas com especialistas.' },
   { name: 'Mercado de Hidrogênio Verde', industry: 'Energia & Utilidades', theme: 'Estratégia de crescimento & novos negócios', date: 'Out/2023', description: 'Panorama do mercado global e local de hidrogênio verde, identificando oportunidades e gargalos.' },
   { name: 'Oportunidades em Gás Natural e GLP', industry: 'Óleo & Gás', theme: 'Estratégia de crescimento & novos negócios', date: 'Ago/2024', description: 'Avaliação de perspectivas e oportunidades nos mercados de gás natural e GLP.' },
   { name: 'Avaliação de Planta de E-metanol', industry: 'Energia & Utilidades', theme: 'Estratégia de crescimento & novos negócios', date: 'Out/2024', description: 'Elaboração de business case e estruturação financeira para planta de e-metanol.' },
   { name: 'Workshop de Estratégia Brasil 2024', industry: 'Óleo & Gás', theme: 'Planejamento estratégico', date: 'Nov/2024', description: 'Consolidação de resultados de workshop executivo para definição de plano estratégico.' },
-  { name: 'Mercado de Químicos Líquidos e Petroquímicos', industry: 'Logística & Terminais', theme: 'Estratégia de crescimento & novos negócios', date: 'Nov/2024', description: 'Avaliação do mercado brasileiro de químicos líquidos, projetando demanda e oportunidades de infraestrutura.' },
+  { name: 'Mercado de Químicos Líquidos e Petroquímicos', industry: 'Infraestrutura', theme: 'Estratégia de crescimento & novos negócios', date: 'Nov/2024', description: 'Avaliação do mercado brasileiro de químicos líquidos, projetando demanda e oportunidades de infraestrutura.' },
   { name: 'Otimização de Custos de Gás Natural', industry: 'Óleo & Gás', theme: 'Eficiência operacional', date: 'Jan/2025', description: 'Diagnóstico de uso de gás natural em unidades fabris para identificação de oportunidades de redução de custo.' },
   { name: 'Rentabilização através de Ativos', industry: 'Energia & Utilidades', theme: 'Eficiência operacional', date: 'Abr/2025', description: 'Roadmap de iniciativas para otimizar a gestão de ativos, visando rentabilização da operação de transmissão.' },
   { name: 'Estratégia de Fibra Ótica', industry: 'Telecomunicações', theme: 'Planejamento estratégico', date: 'Jul/2025', description: 'Desenvolvimento de estratégia para escalar o negócio de fibra ótica, com modelo comercial e priorização de clientes.' },
@@ -147,7 +147,7 @@ const projects = [
   { name: 'Planejamento Estratégico', industry: 'Óleo & Gás', theme: 'Estratégia de crescimento & novos negócios', date: 'Abr/2016', description: 'Apoio à elaboração do planejamento estratégico de empresa do setor de O&G.' },
   { name: 'Acompanhamento de Desempenho', industry: 'Óleo & Gás', theme: 'Estratégia de crescimento & novos negócios', date: 'Mai/2016', description: 'Elaboração de ferramentas e metodologia de acompanhamento de performance operacional de longo prazo.' },
   // ── CIRJ ──
-  { name: 'Integração de Projetos — Olimpíadas Rio 2016', industry: 'Esporte & Infraestrutura', theme: 'PMO & Implementação', date: 'Jan/2013', description: 'Integração e monitoramento dos projetos de infraestrutura dos Jogos Olímpicos Rio 2016.' },
+  { name: 'Integração de Projetos — Olimpíadas Rio 2016', industry: 'Infraestrutura', theme: 'PMO & Implementação', date: 'Jan/2013', description: 'Integração e monitoramento dos projetos de infraestrutura dos Jogos Olímpicos Rio 2016.' },
   // ── SBC ──
   { name: 'Otimização de RH', industry: 'Óleo & Gás', theme: 'Eficiência operacional', date: 'Jun/2011', description: 'Projeto de otimização de recursos humanos em empresa de logística de O&G.' },
   { name: 'Cost Transformation', industry: 'Óleo & Gás', theme: 'Eficiência operacional', date: 'Jan/2012', description: 'Projeto de transformação de custos em operação brasileira de empresa de O&G.' }
